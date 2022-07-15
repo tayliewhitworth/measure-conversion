@@ -1,13 +1,7 @@
-# cod5e4083b7303cae9cc11694
+# Measure Conversion
 
-## About Scrimba
+## About project
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+This mini project is a measure convertor. I used HTML as the base layout and then added in Javascript functions to create a measurement conversion. I used CSS to style the page like the figma design that was given to me. In the javascript I created an addEventListener() to activate the conversion when the button was clicked. The function takes the input value and converts it into three different metrics.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Super simple and easy project for beginning in javascript!
