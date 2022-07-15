@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #6943FF;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h1 {
+    text-align: center;
+    color: white;
+}
+
+.input-section > input {
+    width: 130px;
+    height: 83px;
+    box-sizing: border-box;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 58px;
+    font-weight: 800;
+    overflow-wrap: wrap;
+}
+
+.input-section {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.input-section > button {
+    margin-top: 26px;
+    background-color: white;
+    color: #3D3D3D;
+    width: 130px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-section > button:hover {
+    background-color: #1F2937;
+    color: #CCC1FF;
+}
+
+.measurements {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 729px;
+}
+
+.measurement-box {
+    width: 500px;
+    height: 110px;
+    text-align: center;
+    border: 1px solid #273549;
+    background-color: #273549;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.measurement-box > h3 {
+    color: #CCC1FF;
+    font-size: 20px;
+}
+
+.measurement-box > p {
+    color: white;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 500px) {
+    .measurement-box {
+        width: 400px;
+    }
+    
+    .container {
+        padding-bottom: 20px;
+    }
+}
